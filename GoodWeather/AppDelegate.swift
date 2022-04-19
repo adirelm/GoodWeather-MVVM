@@ -28,6 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         
         UIBarButtonItem.appearance().tintColor = UIColor.white
+        setupDefaultSettings()
         
         return true
     }
